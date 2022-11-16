@@ -1,0 +1,183 @@
+ *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif; 
+
+ }
+
+
+ /*  Strat navbar  */
+ .navbar{
+    height: 20vh;
+    width: 100%;
+
+ }
+
+ nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+ }
+
+ .logo{
+    font-size: 30px;
+    font-weight: bold;
+    transition: .4s;
+ }
+
+ nav ul li{
+   list-style-type: none;
+   display: inline-block;
+   padding: 10px 20px;
+  
+     
+ }
+
+ nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+
+    
+ }
+ nav ul li a:hover{
+  border-bottom: 3px solid black;
+   transition: .4s;
+
+    
+ }
+ button{
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .4s;
+ }
+ button:hover{
+   
+   border: 3px solid black;
+   color: #000000;
+    background-color: white;
+ } 
+ 
+
+
+/* Start is header code  */
+
+
+
+ .container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+ }
+
+ /* .box{
+   text-align: center;
+    height: 200px;
+    width: 100%;
+   padding: url;
+    background-image: url(/bg.png.jpg);
+    border: 3px solid black;
+    
+ } */
+
+
+ img{
+   width: 100%;
+}
+
+
+
+
+ ection{
+   padding: 100px 0px;
+   background: #24292D;
+
+}
+
+.section_title{
+   margin-bottom: 30px;
+}
+
+
+.section_title h2{
+   position: relative;
+   text-align: center;
+   color: rgb(0, 0, 0);
+   font-size: 30px;
+
+}
+
+
+.section_title h2::after {
+   content: "";
+   position: absolute;
+   border-bottom: 1px solid #000000;
+   left: 50%;
+   width: 8%;
+   bottom: 0;
+   transform: translateX(-50%) rotate(356deg);
+}
+
+
+
+
+#home{
+   background: #24292D;
+}
+
+.inner_home{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin: 0 auto;
+   width: 182%;
+   color: #fff;
+}
+
+.child_home{
+   flex-basis: 45%;
+   padding-left: 117px;
+}
+
+.child_home h1{
+   font-size: 60px;
+   line-height: 48px;
+   color: #000000;
+}
+
+.highlight{
+   color: #000000;
+   font-size: 25px;
+}
+
+.child_home p{
+   font-size: 22px;
+   margin-bottom: 15px;
+}
+
+.btn{
+   background: #000000;
+   padding: 10px 25px;
+   border: 1px solid #000000;
+   border-radius: 25px;
+   color: #fff;
+   font-weight: 600;
+   text-transform: uppercase;
+
+}
+
+.btn:hover{
+   background-color: white;
+   border: 1px solid #000000;
+   color: rgb(0, 0, 0);
+   background: transparent;
+}
+
